@@ -1,47 +1,54 @@
 # Akan Birthday Project
 
 ## Project description
-This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+>This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 The application prompts a user to enter their birthday and gender on the browser.
 The application then outputs the user's Akan name(from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.)
 Here are Ghanian day names.
 
-Male
-Sunday: Kwasi
+__Male__
 
-Monday: Kwadwo
+>Sunday: Kwasi
 
-Tuesday: Kwabena
+>Monday: Kwadwo
 
-Wednesday: Kwaku
+>Tuesday: Kwabena
 
-Thursday:  Yaw
+>Wednesday: Kwaku
 
-Friday: Kofi
+>Thursday:  Yaw
 
-Saturday: Kwame
+>Friday: Kofi
 
-Female
-Sunday: Akosua
+>Saturday: Kwame
 
-Monday: Adwoa
+**Female**
 
-Tuesday: Abenaa
+>Sunday: Akosua
 
-Wednesday: Akua
+>Monday: Adwoa
 
-Thursday:  Yaa
+>Tuesday: Abenaa
 
-Friday: Afua
+>Wednesday: Akua
 
-Saturday: Ama
+>Thursday:  Yaa
+
+>Friday: Afua
+
+>Saturday: Ama
 
 ## Author(s) information
 Collins Kiprono Rotich
 
 ## Setup instructions - includes any scripts that need to be run if necessary
+1. Open file on live server/browser to run application
+2. Enter birthday date as prompted.
 
 ## BDD
+1. The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one.
+
+2. The application should output to the user their Akan name depending on their gender.
 
 ## Technologies used
 HTML, CSS, Javascript
