@@ -11,23 +11,30 @@ body {
     justify-content: center;
     align-items: center;
 }
-.calculator {
+
+.sectionbox {
     width: 500px;
     height: 500px;
-    box-shadow: 6px 6px 30px rgba(178, 194, 75, 0.3);
+    box-shadow: 6px 6px 30px rgba(205, 206, 197, 0.3);
     border-radius: 12px;
-    background: #8eab5c;
+    background: #8d8f93;
     overflow: hidden;
 }
 
 .birthdaydate {
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     align-items: center;
     text-align: center;
 }
+
 .paragraph{
     font-size: 50px;
+}
+.akan-name{
+    font-weight: bold;
+    border: 3px solid green;
+    padding: 3px 120px;
 }
 form{
     font-size: 40px;
