@@ -1,12 +1,13 @@
 
-    document.getElementById("submit").onclick = function(){
+    document.getElementById("submit").onclick = function(event) {
+        event.preventDefault();
 
         var birthday = document.getElementById("bdate").value;
         if (!birthday){
             alert("Enter correct birthday!");
-        }else{
-                alert("Your birthday is " + birthday);
-            }
+        }else if(!gender){
+                alert("Please enter your gender");
+            }else {
         
         var gender = document.querySelector('input[name="gender"]:checked').value;
 
@@ -17,10 +18,83 @@
           }
           day = getDayOfWeek(birthday);
 
-          alert("Your birthdate is " + day);
+          if(gender == "Male" && day == "Sunday"){
+            var akan = "Kwasi";
+            document.getElementById("akan_name").innerHTML = akan;
+          }
+            else if(gender == "Male" && day == "Monday")
+          {
+            alert("Your akan name is Kwadwo");
+            var akan = "Kwasi";
+            document.getElementById("akan_name").innerHTML = akan;
+          }
+            else if(gender == "Male" && day == "Tuesday")
+         {
+            alert("Your akan name is Kwabena");
+            var akan = "Kwasi";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Male" && day == "Wednesday")
+         {
+            alert("Your akan name is Kwaku");
+            var akan = "Kwasi";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Male" && day == "Thursday")
+         {
+            alert("Your akan name is Yaw");
+            var akan = "Kwasi";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Male" && day == "Friday")
+         {
+            var akan = "Kofi";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Male" && day == "Saturday")
+         {
+            var akan = "Kwame";
+            document.getElementById("akan_name").innerHTML = akan;
+
+         }
+            else if(gender == "Female" && day == "Sunday")
+         {
+            var akan = "Akosua";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Monday")
+         {
+            var akan = "Adwoa";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Tuesday")
+         {
+            var akan = "Abenaa";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Wednesday")
+         {
+            var akan = "Akua";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Thursday")
+         {
+            var akan = "Yaa";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Friday")
+         {
+            var akan = "Afua";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else if(gender == "Female" && day == "Saturday")
+         {
+            var akan = "Ama";
+            document.getElementById("akan_name").innerHTML = akan;
+         }
+            else
+         {
+            alert("Something is wrong");
+         }
         }
-
-        
-    
-
-
+        }
