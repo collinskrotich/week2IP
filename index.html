@@ -14,22 +14,23 @@
     </head>
 
     <body>
+        <section class="calculator">
         <form class="form">
             <label>Please enter your Birthday:</label><br>
-            <input type="date" name="bdate" min="1900-01-01" max="2022-12-31" id="bdate" required><br>
+            <input type="date" class="birthdaydate" name="bdate" min="1900-01-01" max="2022-12-31" id="bdate" required><br>
             <label>Please enter you gender:</label><br>
-            <input type="radio" name="gender" id="male" value="Male">
+            <input type="radio" class="radio" name="gender" id="male" value="Male">
             <label for="male">Male</label><br>
-            <input type="radio" name="gender" id="female" value="Female">
+            <input type="radio" class="radio" name="gender" id="female" value="Female">
             <label for="female">Female</label><br>
 
-            <p>
-                <button id="submit">Submit</button>
-            </p>
-            <p>
-                Your akan name is: <span id="akan_name"></span>
+             <button id="submit" class="button">Submit</button>
+            
+            <p class="paragraph">
+                Your akan name is: <span id="akan_name" class="akan-name"></span>
             </p>
         </form>
         <script src="index.js" async defer></script>
+    </section>
     </body>
 </html>

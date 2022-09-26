@@ -1,6 +1,70 @@
-form{
-    align-content: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #efeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator {
+    width: 500px;
+    height: 500px;
+    box-shadow: 6px 6px 30px rgba(178, 194, 75, 0.3);
+    border-radius: 12px;
+    background: #8eab5c;
+    overflow: hidden;
+}
+
+.birthdaydate {
+    font-size: 40px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+.paragraph{
+    font-size: 50px;
+}
+form{
+    font-size: 40px;
+}
+
+button {
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 3px solid #000;
+    width: 180px;
+    height: 92px;
+    font-size: 39px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+.radio{
+    font-size: larger;
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.button:active {
+  box-shadow: #e2a03d 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
 }
