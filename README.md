@@ -1,5 +1,8 @@
 # Akan Birthday Project
 
+## Live Link
+https://collinskrotich.github.io/week2IP/
+
 ## Project description
 >This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 The application prompts a user to enter their birthday and gender on the browser.
@@ -49,6 +52,7 @@ Collins Kiprono Rotich
 1. The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one.
 
 2. The application should output to the user their Akan name depending on their gender.
+
 
 ## Technologies used
 HTML, CSS, Javascript
