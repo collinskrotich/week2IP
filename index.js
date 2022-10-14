@@ -10,13 +10,13 @@
           alert("Gender & Birthday cannot be blank!"); 
         }
         else if (!birthday){
-          alert("Enter your birthday!"); 
+          alert("Please Enter your Birthday!"); 
         }
         else if(!(document.querySelector('input[name="gender"]:checked'))){
-          alert("Please enter your gender!");
+          alert("Please Enter your Gender!");
         }
         else if ((birthday < "1900-01-01") || (birthday > new Date().toJSON().slice(0, 10))){
-          alert("Please enter a date between 1900 and today")
+          alert("Please Enter a date between 1900 and today!")
         }else{
 
           var gender = document.querySelector('input[name="gender"]:checked').value;
