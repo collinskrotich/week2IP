@@ -3,6 +3,8 @@
         event.preventDefault();
 
         var birthday = document.getElementById("bdate").value;
+        console.log(birthday);
+        console.log(new Date().toJSON().slice(0, 10));
 
         if(!(document.querySelector('input[name="gender"]:checked')) && (!birthday)){
           alert("Gender & Birthday cannot be blank!"); 
@@ -13,7 +15,9 @@
         else if(!(document.querySelector('input[name="gender"]:checked'))){
           alert("Please enter your gender!");
         }
-        else {
+        else if ((birthday < "1900-01-01") || (birthday > new Date().toJSON().slice(0, 10))){
+          alert("Please enter a date between 1900 and today")
+        }else{
 
           var gender = document.querySelector('input[name="gender"]:checked').value;
 
