@@ -49,13 +49,13 @@ Collins Kiprono Rotich
 2. Enter birthday date as prompted.
 
 ## BDD
-1. The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one.
-
-2. The application should output to the user their Akan name depending on their gender.
+- The application gives a description of what it does.
+- The application should check whether the date and month entered is valid. if either of them is invalid,  the user should be alerted and asked to enter a valid one.
+- The application should output to the user their Akan name depending on their gender.
 
 
 ## Technologies used
-HTML, CSS, Javascript
+HTML, CSS, Javascript, Bootstrap
 
 ## Contact information
 Email: collinsrotich001@gmail.com
